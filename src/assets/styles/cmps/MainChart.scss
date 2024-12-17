@@ -1,0 +1,20 @@
+.chart-detailes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    button {
+        border: 0;
+        font-family: 'Courier New', Courier, monospace;
+        background-color: rgb(127, 218, 218);
+        width: 10%;
+        color: black;
+        padding: 5px 10px;
+        margin: 5px;
+        cursor: pointer;
+        &:hover{
+            background-color:rgb(34, 175, 175);
+            transition: 0.2s;
+        }
+    }
+}
