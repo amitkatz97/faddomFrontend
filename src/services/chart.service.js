@@ -17,7 +17,6 @@ export const chartService = {
 
 
 async function query(ip, period, timePeriod) {
-    // build object 
     const querySearch = { ip, period, timePeriod }
     try {
         const { data: chartDetailes } = await axios.get(BASE_URL, { params: querySearch })

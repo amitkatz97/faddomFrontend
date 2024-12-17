@@ -40,7 +40,6 @@ export function MainChart({ period, timePeriod, ip }) {
 
 
     async function getCpuData() {
-        // let ip = '172.31.88.161'
         let foramtedTimes = []
         console.log("getCpuData is activated")
         const cpuData = await chartService.query(ip, period, timePeriod)
@@ -68,7 +67,7 @@ export function MainChart({ period, timePeriod, ip }) {
 
         
         setOptions({
-        // set the chart options
+        // set the chart options 
             responsive: true,
             plugins: {
                 legend: {
